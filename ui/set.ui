@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>934</width>
+    <height>611</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Настройки системы</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../crm/res/nglogo.png</normaloff>../crm/res/nglogo.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/icons/gradient.png);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>100</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent !important;
+font: 600 12pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>НАСТРОЙКИ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>520</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>181</width>
+      <height>51</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>181</width>
+      <height>51</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+font: 625 10pt &quot;Segoe UI&quot;;
+background: #94a5ff;
+border-radius: 20px;   
+                  /* &lt;----  20px  */ 
+}
+
+QPushButton:hover {
+	background:#E1E5FF;
+}
+
+QPushButton:pressed {
+	background: #717ec3;
+}</string>
+    </property>
+    <property name="text">
+     <string>ВЫЙТИ</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>150</y>
+      <width>251</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#widget {
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1),
+               0px 4px 15px rgba(0, 0, 0, 0.1);
+}</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>170</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+font: 625 10pt &quot;Segoe UI&quot;;
+background: #94a5ff;
+border-radius: 20px;   
+                  /* &lt;----  20px  */ 
+}
+
+QPushButton:hover {
+	background:#E1E5FF;
+}
+
+QPushButton:pressed {
+	background: #717ec3;
+}</string>
+     </property>
+     <property name="text">
+      <string>ИЗМЕНИТЬ ОТЧЕТСВО</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>100</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+font: 625 10pt &quot;Segoe UI&quot;;
+background: #94a5ff;
+border-radius: 20px;   
+                  /* &lt;----  20px  */ 
+}
+
+QPushButton:hover {
+	background:#E1E5FF;
+}
+
+QPushButton:pressed {
+	background: #717ec3;
+}</string>
+     </property>
+     <property name="text">
+      <string>ИЗМЕНИТЬ ФОТОГРАФИЮ</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>30</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+font: 625 10pt &quot;Segoe UI&quot;;
+background: #94a5ff;
+border-radius: 20px;   
+                  /* &lt;----  20px  */ 
+}
+
+QPushButton:hover {
+	background:#E1E5FF;
+}
+
+QPushButton:pressed {
+	background: #717ec3;
+}</string>
+     </property>
+     <property name="text">
+      <string>ИЗМЕНИТЬ ИМЯ</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>150</y>
+      <width>401</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#widget_2 {
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1),
+               0px 4px 15px rgba(0, 0, 0, 0.1);
+}</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_9">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>341</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+font: 625 10pt &quot;Segoe UI&quot;;
+background: #94a5ff;
+border-radius: 20px;   
+                  /* &lt;----  20px  */ 
+}
+
+QPushButton:hover {
+	background:#E1E5FF;
+}
+
+QPushButton:pressed {
+	background: #717ec3;
+}</string>
+     </property>
+     <property name="text">
+      <string>ДОБАВИТЬ НОВУЮ РОЛЬ</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>130</y>
+       <width>341</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+font: 625 10pt &quot;Segoe UI&quot;;
+background: #94a5ff;
+border-radius: 20px;   
+                  /* &lt;----  20px  */ 
+}
+
+QPushButton:hover {
+	background:#E1E5FF;
+}
+
+QPushButton:pressed {
+	background: #717ec3;
+}</string>
+     </property>
+     <property name="text">
+      <string>УДАЛИТЬ/ДОБАВИТЬ ТИП ЗАДАЧИ</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>80</y>
+       <width>341</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+font: 625 10pt &quot;Segoe UI&quot;;
+background: #94a5ff;
+border-radius: 20px;   
+                  /* &lt;----  20px  */ 
+}
+
+QPushButton:hover {
+	background:#E1E5FF;
+}
+
+QPushButton:pressed {
+	background: #717ec3;
+}</string>
+     </property>
+     <property name="text">
+      <string>УДАЛИТЬ/ДОБАВИТЬ ДОЛЖНОСТЬ</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_8">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>230</y>
+       <width>341</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+font: 625 10pt &quot;Segoe UI&quot;;
+background: #94a5ff;
+border-radius: 20px;   
+                  /* &lt;----  20px  */ 
+}
+
+QPushButton:hover {
+	background:#E1E5FF;
+}
+
+QPushButton:pressed {
+	background: #717ec3;
+}</string>
+     </property>
+     <property name="text">
+      <string>УДАЛИТЬ/ДОБАВИТЬ ТИП СДЕЛКИ</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>180</y>
+       <width>341</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+font: 625 10pt &quot;Segoe UI&quot;;
+background: #94a5ff;
+border-radius: 20px;   
+                  /* &lt;----  20px  */ 
+}
+
+QPushButton:hover {
+	background:#E1E5FF;
+}
+
+QPushButton:pressed {
+	background: #717ec3;
+}</string>
+     </property>
+     <property name="text">
+      <string>УДАЛИТЬ/ОБНОВИТЬ СТАТУС СДЕЛАКИ</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>10</y>
+      <width>701</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+ background: transparent !important;</string>
+    </property>
+    <widget class="QWidget" name="layoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>646</width>
+       <height>57</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QPushButton" name="home">
+        <property name="minimumSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+ background: transparent !important;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../res/house.png</normaloff>../res/house.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="deal">
+        <property name="minimumSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+ background: transparent !important;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../res/deal.png</normaloff>../res/deal.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="date">
+        <property name="minimumSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+ background: transparent !important;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../res/calendar.png</normaloff>../res/calendar.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="task">
+        <property name="minimumSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+ background: transparent !important;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../res/task.png</normaloff>../res/task.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="client">
+        <property name="minimumSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::ContextMenuPolicy::NoContextMenu</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+ background: transparent !important;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../res/client.png</normaloff>../res/client.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="empl">
+        <property name="minimumSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+ background: transparent !important;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../res/emp.png</normaloff>../res/emp.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="chat">
+        <property name="minimumSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+ background: transparent !important;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../res/chat.png</normaloff>../res/chat.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="ana">
+        <property name="minimumSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+ background: transparent !important;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../res/an.png</normaloff>../res/an.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="sett">
+        <property name="minimumSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+ background: transparent !important;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../res/set.png</normaloff>../res/set.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="notification">
+        <property name="minimumSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+ background: transparent !important;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../res/uved.png</normaloff>../res/uved.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="help">
+        <property name="minimumSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+ background: transparent !important;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../res/que.png</normaloff>../res/que.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>51</width>
+          <height>51</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>261</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../res/ngname.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="profil">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>450</y>
+      <width>229</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent !important;
+font: 500 12pt &quot;Segoe UI&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../res/ress.qrc"/>
+  <include location="../res/rec.qrc"/>
+ </resources>
+ <connections/>
+</ui>
