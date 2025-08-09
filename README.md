@@ -1,2 +1,17 @@
-# ng
-the project of the CRM system for the company
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h1>Проект Session1</h1>
+
+<p>Этот репозиторий содержит проект система управления компанией, разработанная с использованием Python (PyQt6) и MySQL и т.д.. Проект должен позволять сотрудникам авторизоваться, просматривать информацию, общаться через встроенный мессенджер и т.д..</p>
+
+<h2>Создатель проектов</h2>
+<p>Левченко Александра 42ИС</p>
+
+</body>
+</html>
